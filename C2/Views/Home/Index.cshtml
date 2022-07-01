@@ -1,0 +1,123 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    <link href="~/Scripts/Styling.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <style>
+        body {
+            background-image: url('../../Image/background.jpeg');
+            background-position:top left;
+            background-repeat:no-repeat;
+
+        }
+        .navbg{
+            background-color:#393535;
+            
+        }
+        .navcol {
+            color: whitesmoke;
+        }
+        .navpad{
+            padding-right:10vw;
+        }
+        .bgwhite{
+            background-color:white;
+        }
+        .colwhite{
+            color:white;
+        }
+        .padcol1{/*
+            padding-left:10vw;*/
+            padding-top:120px;
+        }
+        .col2size{
+            height:100vw;
+        }
+        .inputborder{
+            border:1px solid white;
+            border-bottom: 1px solid #9a9a9a;
+
+        }
+        .mybtn{
+            background-color:#f37216;
+            color:white;
+        }
+        .colgly {
+            color: #f37216;
+        }
+        .page{
+            padding:0px;
+            margin:0px;
+        }
+    </style>
+    <div class="page d-flex">
+        <nav class="navbar navbar-fixed-top navbg">
+
+            
+            <ul class="d-flex nav navbar-nav navbar-right navpad ">
+                <li><a class="navcol" href="#">Home</a></li>
+                <li><a class="navcol" href="#">Services</a></li>
+                <li><a class="navcol" href="#">Portfolio</a></li>
+                <li><a class="navcol" href="#">About Us</a></li>
+                <li><a class="navcol" href="#">Team</a></li>
+                <li><a class="navcol" href="#">Careers</a></li>
+                <li><a class="navcol" href="#">Contact</a></li>
+                <li><a class="navcol" href="#">Training Program</a></li>
+            </ul>
+
+        </nav>
+        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 padcol1 colwhite d-flex">
+            <div class="col-lg-5 col-lg-push-1">
+                <p><strong>Get In Touch</strong></p>
+                <br />
+                <p><span class="colgly glyphicon glyphicon-map-marker"></span>   House #22, Sultan Town, Lahore, Pakistan</p>
+                <p><span class="colgly glyphicon glyphicon-phone"></span>   (+0092) 300 0437173</p>
+                <p><span class="colgly glyphicon glyphicon-envelope"></span>   DIT@gcu.edu.pk.com</p>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col2size bgwhite d-flex">
+            <div class="col-lg-10 col-lg-push-1 padcol1">
+                <form>
+                    <label>Message Us</label>
+                    <div class="form-group ">
+                        <input type="text" class="form-control inputborder" name="Name" id="Name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group ">
+                        <input type="text" class="form-control inputborder" name="Email" id="Email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group ">
+                        <input type="text" class="form-control inputborder" name="Phone" id="Phone" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group ">
+                        <textarea class="form-control inputborder" rows="5" id="Message" placeholder="Your Message"></textarea>
+                        
+                    </div>
+                    <br />
+                    <div >
+                        <button type="submit" class="btn mybtn text-center">SUBMIT FORM</button>
+                    </div>
+                    <br />
+
+                </form>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
